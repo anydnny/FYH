@@ -2,6 +2,10 @@
     margin:0;
     padding:0;
 }
+@font-face {
+    font-family: 'Dots';
+    src: url(../font/DotsAllForNow.ttf);
+}
 html{
     box-sizing: border-box;
     font-size: 62.5%;
@@ -1457,7 +1461,7 @@ font-size: 3.6rem;
     min-height: 10rem;
 }
 .card .card-top h1{
-    font-family: Dots All For Now JL;
+    font-family: 'Dots';
     align-self: flex-end;
     font-style: normal;
     font-weight: normal;
@@ -1612,11 +1616,13 @@ font-size: 3.6rem;
     
 }
 @media screen and (max-width:900px){
-    .fin-one h1{font-size: 6.8rem; left:13rem}
+    .page{padding: 2rem;}
+    .fin-one h1{font-size: 6.8rem; left:10rem}
     .fin-two h1{font-size: 6.8rem;}
     .fin-three h1{font-size: 6.8rem;}
     .sav-gallery-two h2{left:55%}
     .annotation h3{font-size: 1rem;}
+    .card{height: 25vw;}
 }
 @media screen and (max-width:720px) and (orientation: portrait){
     .page{display: none;}
@@ -3188,7 +3194,7 @@ font-size: 3.6rem;
             height: 18vw;
         }
         .m-card .m-card-top h1{
-            font-family: Dots All For Now JL;
+            font-family: 'Dots';
             align-self: flex-end;
             font-style: normal;
             font-weight: normal;
