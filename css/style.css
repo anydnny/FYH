@@ -1266,7 +1266,6 @@ font-size: 3.6rem;
 }
 .madc{
     -webkit-text-stroke-width: 5px;
-    transform: scale();
 }
 [id="mad"]{
     color: rgb(1, 175, 1);
@@ -1565,7 +1564,7 @@ font-size: 3.6rem;
     .fin-two-right h1{font-size: 8.8rem;}
     .fin-three-left h1{font-size: 8.8rem;}
     .fin-four p{max-width: 70%;}
-    .sav-title h2{font-size: 2;}
+    .sav-title h2{font-size: 2rem;}
     .card {height: 25vw; width:60vw}
     .card .card-top h1{font-size: 94px;line-height: 94px;}
     .card .card-top img{width: 12vw; height: 12vw;}
