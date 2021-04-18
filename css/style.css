@@ -43,7 +43,7 @@ html{
     padding-bottom: 50%;
     border-radius: 2rem;
 }
-.page-mobile .video{width: 90%; margin-bottom: 2rem; margin-left:auto;margin-right: auto; border-radius: 0rem;}
+.page-mobile .video{width: 95%; margin-bottom: 2rem; margin-left:auto;margin-right: auto; border-radius: 0rem;}
 .video__link {
     position: absolute;
     top: 0;
@@ -234,7 +234,7 @@ p{
     background: rgb(241,241,241);
     transition: 10s;
 }
-.page-mobile{display: none;}
+.page-mobile{display: none; }
 
 
 /*-----START------*/
@@ -1725,7 +1725,7 @@ font-size: 3.6rem;
 }
 @media screen and (max-width:720px) and (orientation: portrait){
     .page{display: none;}
-    .page-mobile{display: block;}
+    .page-mobile{display: block; padding-bottom: 2rem;}
     .page-mobile p{
         font-size: 1.1rem;
         text-align: justify;
@@ -2458,7 +2458,7 @@ font-size: 3.6rem;
         .m-card{
             display: flex;
             flex-direction: column;
-            margin: 0 1rem 3.2rem 1rem;
+            margin: 0 1rem 2rem 1rem;
            background-image: url(../img/76.png);
             height: 40vw;
             background-size: cover;
@@ -2539,7 +2539,7 @@ font-size: 3.6rem;
 }
 @media screen and (max-width: 400px) and (orientation: portrait) {
     .page{display: none;}
-    .page-mobile{display: block;}
+    .page-mobile{display: block;padding-bottom: 2rem;}
     .page-mobile p{
         font-size: 1.1rem;
         text-align: justify;
@@ -3273,7 +3273,7 @@ font-size: 3.6rem;
         .m-card{
             display: flex;
             flex-direction: column;
-            margin: 0 1rem 3.2rem 1rem;
+            margin: 0 1rem 2rem 1rem;
            background-image: url(../img/76.png);
             height: 40vw;
             background-size: cover;
