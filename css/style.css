@@ -145,6 +145,34 @@ p{
         margin-bottom: 3.5rem;
         max-width: 90%;
 }
+.fyh-logo{
+    position: fixed;
+    top:2rem;
+    left: 2rem;
+    background-image: url(../img/head.png);
+    background-position: center;
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+    z-index: 20;
+    display: none;
+}
+.fyh-logo img{
+    animation: 10s linear 0s normal none infinite running rotate;
+    width: 20vw;
+    height: 20vw;
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    z-index: 20;}
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+    }
 .start-image{
     margin: auto;
     text-align: center;
@@ -1528,7 +1556,7 @@ font-size: 3.6rem;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 14rem;
+    margin-bottom: 7rem;
     background-image: url(../img/76.png);
     width: 80vw;
     height: 25vw;
@@ -1588,8 +1616,37 @@ font-size: 3.6rem;
     line-height: 83px;
 }
 @media screen and (min-width: 1921px){
+    
     .page-mobile{display: none}
     p{font-size: 3rem; }
+    .fyh-logo{
+        position: fixed;
+        top:2rem;
+        left: 2rem;
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        z-index: 20;
+        display: none;
+    }
+    .fyh-logo img{
+        animation: 10s linear 0s normal none infinite running rotate;
+        width: 20vw;
+        height: 20vw;
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        z-index: 20;}
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+        }
     .annotation{max-width: none; max-height: none;}
     .annotation h3{font-size: 2.1rem}
     .start-image{ max-width: 150rem;max-height: 70rem;}
@@ -1647,8 +1704,37 @@ font-size: 3.6rem;
     .card .card-bot{font-size: 62px;}
 }
 @media screen and (max-width: 1920px){
+   
     .page-mobile{display: none}
     p{font-size: 2.5rem; }
+    .fyh-logo{
+        position: fixed;
+        top:2rem;
+        left: 2rem;
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        z-index: 20;
+        display: none;
+    }
+    .fyh-logo img{
+        animation: 10s linear 0s normal none infinite running rotate;
+        width: 20vw;
+        height: 20vw;
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        z-index: 20;}
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+        }
     .page{padding: 0 16rem 0 16rem}
     .tony-title h2{font-size: 7rem;}
     .sav-title h2{font-size: 7rem;}
@@ -1665,8 +1751,37 @@ font-size: 3.6rem;
     .card .card-bot{font-size: 62px;}
 }
 @media screen and (max-width: 1680px){
+    
     .page-mobile{display: none;}
     .page{display: flex;}
+    .fyh-logo{
+        position: fixed;
+        top:2rem;
+        left: 2rem;
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        z-index: 20;
+        display: none;
+    }
+    .fyh-logo img{
+        animation: 10s linear 0s normal none infinite running rotate;
+        width: 20vw;
+        height: 20vw;
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        z-index: 20;}
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+        }
     p{font-size: 2rem;}
     .page{padding: 0 6rem 0 6rem}
     .sav-gallery-two h2{font-size: 4.2rem;}
@@ -1709,6 +1824,34 @@ font-size: 3.6rem;
 }
 @media screen and (max-width:900px){
     .page{padding: 2rem;}
+    .fyh-logo{
+        position: fixed;
+        top:2rem;
+        left: 2rem;
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        z-index: 20;
+        display: none;
+    }
+    .fyh-logo img{
+        animation: 10s linear 0s normal none infinite running rotate;
+        width: 20vw;
+        height: 20vw;
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        z-index: 20;}
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+        }
     p{font-size: 1.6rem;}
     .fin-one h1{font-size: 6.8rem; left:10rem}
     .fin-two h1{font-size: 6.8rem;}
@@ -1725,6 +1868,34 @@ font-size: 3.6rem;
 }
 @media screen and (max-width:720px) and (orientation: portrait){
     .page{display: none;}
+    .fyh-logo{
+        position: fixed;
+        top:2rem;
+        left: 2rem;
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+        width: 20vw;
+        height: 20vw;
+        z-index: 20;
+        display: none;
+    }
+    .fyh-logo img{
+        animation: 10s linear 0s normal none infinite running rotate;
+        width: 20vw;
+        height: 20vw;
+        position: fixed;
+        top: 2rem;
+        left: 2rem;
+        z-index: 20;}
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+              }
+              100% {
+                transform: rotate(360deg);
+              }
+        }
     .page-mobile{display: block; padding-bottom: 2rem;}
     .page-mobile p{
         font-size: 1.1rem;
@@ -3092,7 +3263,7 @@ font-size: 3.6rem;
         color: rgba(255, 255, 255, 0);
         font-size: 2.5rem;}
         .m-sav-gal-two-one{background-image: url(../img/37.png);}
-        .m-sav-gal-two-tro{background-image: url(../img/38.png);}
+        .m-sav-gal-two-two{background-image: url(../img/38.png);}
         .m-sav-gal-two-three{background-image: url(../img/39.png);}
         .m-sav-gal-two .m-annotation{
             width: 70%;
@@ -3329,5 +3500,33 @@ font-size: 3.6rem;
             font-size: 20px;
             line-height: 20px;
         }
+        .fyh-logo{
+            position: fixed;
+            top:2rem;
+            left: 2rem;
+            background-image: url(../img/head.png);
+            background-position: center;
+            background-size: cover;
+            width: 20vw;
+            height: 20vw;
+            z-index: 20;
+            display: none;
+        }
+        .fyh-logo img{
+            animation: 10s linear 0s normal none infinite running rotate;
+            width: 20vw;
+            height: 20vw;
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            z-index: 20;}
+            @keyframes rotate {
+                0% {
+                    transform: rotate(0deg);
+                  }
+                  100% {
+                    transform: rotate(360deg);
+                  }
+            }
 }
 
