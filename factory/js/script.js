@@ -17,11 +17,3 @@ window.onscroll=() => {
     }
 }}
 
-
-/*window.onscroll=() => {
-    if(scrollY >= 500){
-        logo.style.display = 'block'}
-    else{
-        logo.style.display = 'none'
-    }
-}*/
