@@ -1602,11 +1602,11 @@ font-size: 3.6rem;
 }
 .card .card-bot .card-link a{
     color: black;
-    font-family: Arial;
-    font-style: italic;
-    font-weight: normal;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-weight: lighter;
     font-size: 36px;
-    line-height: 41px;
+    line-height: 20px;
 }
 .card .card-bot h1{
     font-family: 'DM Sans';
@@ -1806,7 +1806,7 @@ font-size: 3.6rem;
     .sav-main-section-seven .bubble-par-link a{font-size: 3.6rem;}
     .sav-main-section-seven .bubble-par-link{width: 30vw;}
     .hac-info-section-right {max-width: 50%;}
-    .hac-info-section-right-par p{font-size: 1.6rem;}
+    .hac-info-section-right-par p{font-size: 2rem;}
     .hac-section-one-two-left{align-self: flex-start;}
     .acid-section-two-right .annotation h3{font-size: 1rem;}
     .acid-section-six-left .bubble-par-link p{font-size: 3.6rem;}
@@ -2672,9 +2672,9 @@ font-size: 3.6rem;
         }
         .m-card .m-card-bot .m-card-link a{
             color: black;
-            font-family: Arial;
-            font-style: italic;
-            font-weight: normal;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-weight: lighter;
             font-size: 18px;
             line-height: 20px;
         }
@@ -3487,9 +3487,9 @@ font-size: 3.6rem;
         }
         .m-card .m-card-bot .m-card-link a{
             color: black;
-            font-family: Arial;
-            font-style: italic;
-            font-weight: normal;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-weight: lighter;
             font-size: 18px;
             line-height: 20px;
         }
